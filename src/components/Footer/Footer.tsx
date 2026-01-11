@@ -35,14 +35,14 @@ export function Footer() {
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          // href="https://api.whatsapp.com/sefound+your+contact+through+portfolio+site.%0A%0A"
+           href="#"
           target="_blank"
           rel="noreferrer"
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          // href="https://"
+           href="#"
           target="_blank"
           rel="noreferrer"
         >
