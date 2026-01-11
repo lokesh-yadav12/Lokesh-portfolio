@@ -53,16 +53,6 @@ export function About() {
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={python} alt="python" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
-              <img src={java} alt="java" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
@@ -73,6 +63,17 @@ export function About() {
             </ScrollAnimation>
           </div>
           <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+              <img src={python} alt="python" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
+              <img src={java} alt="java" />
+            </ScrollAnimation>
+          </div>
+          
+          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
@@ -82,16 +83,16 @@ export function About() {
               <img src={vueIcon} alt="Vue" />
             </ScrollAnimation>
           </div>
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
               <img src={wordpress} alt="Wordpress" />
             </ScrollAnimation>
-          </div>
-          <div className="hability">
+          </div> */}
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
               <img src={shopify} alt="shopify" />
             </ScrollAnimation>
-          </div>
+          </div> */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
               <img src={htmlIcon} alt="Html" />
