@@ -22,7 +22,7 @@ export function Form() {
     setIsSubmitting(true)
 
     const formData = new FormData(e.currentTarget)
-    formData.append('access_key', 'YOUR_WEB3FORMS_ACCESS_KEY_HERE') // Replace with your key
+    formData.append('access_key', '6531122c-9828-4682-b2c0-a78f85209335') // Replace with your key
     formData.append('subject', 'New Contact Form Submission from Portfolio')
     formData.append('from_name', 'Portfolio Contact Form')
 
