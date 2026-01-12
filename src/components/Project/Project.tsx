@@ -99,7 +99,7 @@ export function Project() {
                 <a href="https://github.com/lokesh-yadav12/Invoice-generator" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="#" target="_blank" rel="noreferrer">
+                <a href="https://invoice-generator-gray.vercel.app/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
